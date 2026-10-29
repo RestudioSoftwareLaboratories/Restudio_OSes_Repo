@@ -1,37 +1,44 @@
-# Approved Branding Assets
+# MidwOS Branding
 
-This file tracks the official branding assets intended for inclusion in `midwos-branding`.
+## Overview
+
+`midwos-branding` is a planned RPM package containing official branding assets for MidwOS Horizon 1.0, maintained by Restudio Software Laboratories.
+
+## Package Information
+
+- **Package name:** `midwos-branding`
+- **Version:** `1.0.0`
+- **Target operating system:** MidwOS Horizon 1.0
+- **Package format:** RPM
+- **Maintainer:** Restudio Software Laboratories
+- **Status:** Initial development
 
 ## Official Desktop Wallpapers
 
-The following wallpapers are designated as official MidwOS desktop backgrounds:
+The package includes the following official MidwOS desktop wallpapers:
 
 - `lightscape-unsplash.jpg`
 - `royce-fonseca-unsplash.jpg`
 - `sebastian-unrau-unsplash.jpg`
 
-## Asset Requirements
+The wallpapers are intended to be installed in:
 
-- Preserve the original filenames.
-- Verify that each image is available in the package source files.
-- Confirm that the images may be redistributed under their applicable licenses.
-- Include the approved images in the RPM package.
-- Install the wallpapers in the designated MidwOS branding directory.
+`/usr/share/backgrounds/midwos/`
 
-## Planned Installation Directory
+## Installation
 
-`/usr/share/midwos/branding/wallpapers/`
+The RPM package will install the approved wallpaper assets into the designated MidwOS background directory.
 
-## Package Information
+The package must not overwrite unrelated system files or modify critical system configuration.
 
-- **Package:** `midwos-branding`
-- **Operating System:** MidwOS Horizon 1.0
-- **Maintainer:** Restudio Software Laboratories
-- **Status:** Initial development
+## Security and Integrity
 
-## Release Requirements
+Package contents must be verified before release. Published RPM packages should be distributed through an approved channel and verified using the project's package-signing process.
 
-The wallpapers must be included in the package sources and verified before a release is published.
+## Project Status
 
-The final RPM package must install all three wallpapers to the designated directory without overwriting unrelated system files.
+This package is under development. It must not be considered available for installation until it has been built, tested, and published.
 
+---
+
+Maintained by Restudio Software Laboratories.
