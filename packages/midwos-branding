@@ -1,0 +1,37 @@
+# Approved Branding Assets
+
+This file tracks the official branding assets intended for inclusion in `midwos-branding`.
+
+## Official Desktop Wallpapers
+
+The following wallpapers are designated as official MidwOS desktop backgrounds:
+
+- `lightscape-unsplash.jpg`
+- `royce-fonseca-unsplash.jpg`
+- `sebastian-unrau-unsplash.jpg`
+
+## Asset Requirements
+
+- Preserve the original filenames.
+- Verify that each image is available in the package source files.
+- Confirm that the images may be redistributed under their applicable licenses.
+- Include the approved images in the RPM package.
+- Install the wallpapers in the designated MidwOS branding directory.
+
+## Planned Installation Directory
+
+`/usr/share/midwos/branding/wallpapers/`
+
+## Package Information
+
+- **Package:** `midwos-branding`
+- **Operating System:** MidwOS Horizon 1.0
+- **Maintainer:** Restudio Software Laboratories
+- **Status:** Initial development
+
+## Release Requirements
+
+The wallpapers must be included in the package sources and verified before a release is published.
+
+The final RPM package must install all three wallpapers to the designated directory without overwriting unrelated system files.
+
